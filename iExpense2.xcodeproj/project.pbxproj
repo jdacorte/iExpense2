@@ -14,6 +14,9 @@
 		F1341C8A27812A2D00585272 /* iExpense2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1341C8927812A2D00585272 /* iExpense2Tests.swift */; };
 		F1341C9427812A2D00585272 /* iExpense2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1341C9327812A2D00585272 /* iExpense2UITests.swift */; };
 		F1341C9627812A2D00585272 /* iExpense2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1341C9527812A2D00585272 /* iExpense2UITestsLaunchTests.swift */; };
+		F1341CA327812A9400585272 /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1341CA227812A9400585272 /* ExpenseItem.swift */; };
+		F1341CA527812AB900585272 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1341CA427812AB900585272 /* Expenses.swift */; };
+		F1341CA727812FB600585272 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1341CA627812FB600585272 /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		F1341C8F27812A2D00585272 /* iExpense2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iExpense2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1341C9327812A2D00585272 /* iExpense2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpense2UITests.swift; sourceTree = "<group>"; };
 		F1341C9527812A2D00585272 /* iExpense2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpense2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F1341CA227812A9400585272 /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
+		F1341CA427812AB900585272 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		F1341CA627812FB600585272 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				F1341C7827812A2C00585272 /* iExpense2App.swift */,
 				F1341C7A27812A2C00585272 /* ContentView.swift */,
+				F1341CA627812FB600585272 /* AddView.swift */,
+				F1341CA227812A9400585272 /* ExpenseItem.swift */,
+				F1341CA427812AB900585272 /* Expenses.swift */,
 				F1341C7C27812A2D00585272 /* Assets.xcassets */,
 				F1341C7E27812A2D00585272 /* Preview Content */,
 			);
@@ -257,7 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1341CA527812AB900585272 /* Expenses.swift in Sources */,
 				F1341C7B27812A2C00585272 /* ContentView.swift in Sources */,
+				F1341CA727812FB600585272 /* AddView.swift in Sources */,
+				F1341CA327812A9400585272 /* ExpenseItem.swift in Sources */,
 				F1341C7927812A2C00585272 /* iExpense2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
