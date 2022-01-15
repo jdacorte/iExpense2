@@ -44,7 +44,7 @@ struct ContentView: View {
             .navigationTitle("iExpense")
             .toolbar {
                 Button {
-                   showingAddExpense = true
+                    showingAddExpense = true
                 } label: {
                     Image(systemName: "plus")
                 }
